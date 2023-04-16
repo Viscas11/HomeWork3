@@ -8,6 +8,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -77,4 +78,21 @@ public class Main {
             System.out.println("в вагоне мест нет");
         }
     }
-}
+    public static void task7() {
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if ( one < three && two < three) {
+            System.out.println(" число " + three + " больше всех ");
+        } else {
+            if (one < two && three < two) {
+                System.out.println(" число " + two + " больше всех");
+            }
+            if (two < one && two < one) {
+                System.out.println(" число " + one + " больше всез");
+            }
+
+        }
+    }
+    }
+
