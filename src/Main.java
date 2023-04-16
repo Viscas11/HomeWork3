@@ -7,6 +7,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -63,6 +64,17 @@ public class Main {
         }
         if (age >14) {
             System.out.println("Если возраст ребенка равен " + age + ", то он может кататься без сопровождения");
+        }
+    }
+    public static void task6() {
+        int human = 89;
+        if (human <60) {
+            System.out.println(" в вагоне есть свободные сидяие и стоячие места");
+        }
+        if (human >=60 && human <=102) {
+            System.out.println(" в вагоне остались свободные только стоячие места");
+        } else {
+            System.out.println("в вагоне мест нет");
         }
     }
 }
